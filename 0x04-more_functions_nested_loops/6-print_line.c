@@ -15,7 +15,7 @@ void print_line(int n)
 	}
 	else
 	{
-		char c = '-';
+		char c = '_';
 
 		for (i = 1; i <= n; i++)
 		{
