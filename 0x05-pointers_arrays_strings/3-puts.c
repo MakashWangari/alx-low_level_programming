@@ -13,7 +13,6 @@ void _puts(char *str)
 	{
 		_putchar(str[indx]);
 		indx++;
-		str++;
 	}
 	_putchar('\n');
 }
