@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 	}
 	if (index != indexb)
 	{
-		return (index - indexb);
+		return (s1[index] - s2[indexb]);
 	}
 	else
 	{
