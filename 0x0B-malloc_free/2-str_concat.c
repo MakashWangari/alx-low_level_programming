@@ -26,12 +26,16 @@ char *str_concat(char *s1, char *s2)
 		{
 		}
 	}
+	else 
+		size = 0;
 	if (s2 != NULL)
 	{
 		for (length = 0; s2[length] != '\0'; length++)
 		{
 		}
 	}
+	else
+		length = 0;
 	consize = size + length;
 	s = malloc((consize + 1) * sizeof(char));
 	if (s == NULL)
